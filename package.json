@@ -1,0 +1,19 @@
+{
+  "name": "demo-monorepo",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10hendersonm/demo-monorepo.git"
+  },
+  "author": "Marty Henderson",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^3.22.0"
+  },
+  "scripts": {
+    "shipit": "node scripts/shipit.js"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
